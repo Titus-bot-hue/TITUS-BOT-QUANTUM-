@@ -140,7 +140,7 @@ export const getSessionsState = () => {
             pairingNumber: sess.pairingNumber,
             user: sess.sock?.user ? {
                 id: sess.sock.user.id,
-                name: sess.sock.user.name || 'DANSCOM Bot'
+                name: sess.sock.user.name || 'TITUS BOT QUANTUM '
             } : null
         });
     });
@@ -314,7 +314,7 @@ export const startWhatsAppSession = async (sessionId: string) => {
     sess.isInitializing = true;
 
     try {
-        console.log(`>> Initializing DANSCOM WhatsApp Bot [Session: ${sessionId}]...`);
+        console.log(`>> Initializing TITUS BOT QUANTUM  WhatsApp Bot [Session: ${sessionId}]...`);
         
         let version: [number, number, number] = [2, 3000, 1015942434];
         try {
@@ -571,7 +571,7 @@ export const startWhatsApp = async () => {
 let connectionMonitorInterval: any = null;
 const startConnectionMonitor = () => {
     if (connectionMonitorInterval) return;
-    console.log('>> Initiating DANSCOM Connection Monitor kept-alive daemon (30s checks)');
+    console.log('>> Initiating TITUS BOT QUANTUM  Connection Monitor kept-alive daemon (30s checks)');
     connectionMonitorInterval = setInterval(async () => {
         try {
             // 1. Maintain default_bot active
