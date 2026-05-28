@@ -110,7 +110,7 @@ export const processCommand = async (
 💡 _Tip: Send just the number (e.g., 4) to instantly view that category's options!_`.trim();
 
         try {
-          const imagePath = path.join(process.cwd(), 'src/assets/images/danscom_menu_banner_1779306614113.png');
+          const imagePath = path.join(process.cwd(), 'src/assets/images/titus_menu_banner_1779306614513.png');
           if (fs.existsSync(imagePath)) {
             const media = await (sock as any).prepareMessageMedia({ image: fs.readFileSync(imagePath) }, { upload: (sock as any).waUploadToServer });
             await sock.sendMessage(from, {
@@ -792,7 +792,7 @@ _Tune in or type *.live* to check updates!_`;
         try {
           const checkDetails = await initiateIntasendPayment({
             amount: 5,
-            email: `${phone}@danscom.com`,
+            email: `${phone}@TITUSBOTQUANTUM.com`,
             phoneNumber: phone,
             sessionId: 'default_bot',
             terminalId: 'main_terminal',
