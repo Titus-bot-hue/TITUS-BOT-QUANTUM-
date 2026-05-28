@@ -116,7 +116,7 @@ export const getConnectionState = () => {
             pairingNumber: def.pairingNumber,
             user: def.sock?.user ? {
                 id: def.sock.user.id,
-                name: def.sock.user.name || 'DANSCOM Bot'
+                name: def.sock.user.name || 'TITUS BOT QUANTUM Bot'
             } : null
         };
     }
@@ -452,7 +452,7 @@ export const startWhatsAppSession = async (sessionId: string) => {
             } else if (connection === 'open') {
                 sess!.qr = null;
                 sess!.pairingCode = null;
-                console.log(`>> DANSCOM connected successfully! [Session: ${sessionId}]`);
+                console.log(`>> TITUS BOT QUANTUM connected successfully! [Session: ${sessionId}]`);
                 startAutoBio(currentSock);
 
                 // Send congratulations message directly in user's DM
