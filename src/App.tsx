@@ -1346,7 +1346,7 @@ export default function App() {
               <p className="text-[10px] font-extrabold tracking-wider text-slate-400 uppercase text-center select-none">Join Official Community</p>
               <div className="flex flex-col sm:flex-row gap-2">
                 <a
-                  href="https://whatsapp.com/channel/0029Vb7cIiCFcow5xMvqxs2H"
+                  href="https://whatsapp.com/channel/0029VbC9n4qLCoWsHdh8XO2Q"
                   target="_blank"
                   rel="noreferrer noopener"
                   id="visitor-channel-btn"
@@ -1355,7 +1355,7 @@ export default function App() {
                   📢 Join Channel
                 </a>
                 <a
-                  href="https://chat.whatsapp.com/Fn2XuWVDZPmCypETN9WCC1?mode=gi_t"
+                  href="https://facebook.com/groups/1373295420437885/"
                   target="_blank"
                   rel="noreferrer noopener"
                   id="visitor-group-btn"
@@ -1548,7 +1548,7 @@ export default function App() {
               <p className="text-[9px] text-slate-400 font-extrabold uppercase tracking-wider">Gateway Community</p>
               <div className="flex flex-col gap-1.5">
                 <a
-                  href="https://whatsapp.com/channel/0029Vb7cIiCFcow5xMvqxs2H"
+                  href="https://whatsapp.com/channel/0029VbC9n4qLCoWsHdh8XO2Q"
                   target="_blank"
                   rel="noreferrer noopener"
                   id="community-channel-btn"
@@ -1558,7 +1558,7 @@ export default function App() {
                   <ChevronRight className="w-3 h-3 text-indigo-400" />
                 </a>
                 <a
-                  href="https://chat.whatsapp.com/Fn2XuWVDZPmCypETN9WCC1?mode=gi_t"
+                  href="https://facebook.com/groups/1373295420437885/"
                   target="_blank"
                   rel="noreferrer noopener"
                   id="community-group-btn"
