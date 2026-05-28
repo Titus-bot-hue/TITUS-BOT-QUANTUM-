@@ -34,7 +34,7 @@ const inMemoryPayments = new Map<string, PaymentTransaction>();
 const DEFAULT_TERMINAL_ID = 'main_terminal';
 inMemoryTerminals.set(DEFAULT_TERMINAL_ID, {
   id: DEFAULT_TERMINAL_ID,
-  name: 'Default Danscom Terminal',
+  name: 'Default TITUS BOT QUANTUM Terminal',
   operatorName: 'System Admin',
   weeklyRate: 5,
   setupFee: 0,
