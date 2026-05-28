@@ -192,7 +192,7 @@ export default function App() {
           .then(data => {
             setConnection(data);
             if (data.connected) {
-                setStatus('Online (DANSCOM Running)');
+                setStatus('Online (TITUS BOT QUANTUM Running)');
             }
           })
           .catch(() => setStatus('Connection Error'));
@@ -858,7 +858,7 @@ export default function App() {
 
           {/* Secured branding footer */}
           <div className="text-center text-slate-450 select-none pt-4 border-t border-slate-200/50">
-            <p className="text-[9px] font-black tracking-widest uppercase text-slate-400">🛡️ SECURED DEVICE PORTAL GATEWAY • DANSCOM LABS</p>
+            <p className="text-[9px] font-black tracking-widest uppercase text-slate-400">🛡️ SECURED DEVICE PORTAL GATEWAY • TITUS BOT QUANTUM LABS</p>
           </div>
         </div>
       </div>
@@ -1385,7 +1385,7 @@ export default function App() {
             📟
           </div>
           <div>
-            <h1 className="text-sm font-black tracking-tight uppercase text-slate-800">DANSCOM MULTI-TENANT GATEWAY</h1>
+            <h1 className="text-sm font-black tracking-tight uppercase text-slate-800">TITUS BOT QUANTUM MULTI-TENANT GATEWAY</h1>
             <p className="font-mono text-[9px] text-slate-400 font-bold leading-none uppercase tracking-wider mt-0.5">OWNER ADMIN CONSOLE</p>
           </div>
         </div>
