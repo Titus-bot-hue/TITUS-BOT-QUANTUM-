@@ -312,7 +312,7 @@ export const processCommand = async (
         await sock.sendMessage(from, { text: contactText }, { quoted: m });
         await sock.sendMessage(from, { 
             contacts: { 
-                displayName: 'TITUSMUTUKU, 
+                displayName: "TITUSMUTUKU", 
                 contacts: [{ vcard }] 
             }
         }, { quoted: m });
