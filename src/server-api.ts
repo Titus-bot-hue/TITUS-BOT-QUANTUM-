@@ -95,7 +95,7 @@ app.get('/api/health', async (req, res) => {
     const { getPayheroConfig } = await import('./services/terminalService.js');
     const isSandbox = getPayheroConfig().isSandbox;
     res.json({ 
-      status: 'Online (DANSCOM Running)',
+      status: 'Online (TITUS BOT QUANTUM Running)',
       isFirestoreUsable: getIsFirestoreUsable(),
       projectId: config.firebase.projectId || null,
       clientEmail: config.firebase.clientEmail || null,
@@ -104,7 +104,7 @@ app.get('/api/health', async (req, res) => {
     });
   } catch (err: any) {
     res.json({ 
-      status: 'Online (DANSCOM Running)',
+      status: 'Online (TITUS BOT QUANTUM Running)',
       isFirestoreUsable: getIsFirestoreUsable(),
       projectId: config.firebase.projectId || null,
       clientEmail: config.firebase.clientEmail || null,
