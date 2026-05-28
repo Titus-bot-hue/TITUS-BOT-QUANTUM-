@@ -340,9 +340,17 @@ export const processCommand = async (
       }
 
       case 'support': {
-        await sock.sendMessage(from, { text: `💬  *TITUS BOT QUANTUM  Official Community & Support:* \n\n• *Support Group]\n https://facebook.com/groups/1373295420437885/`;
-          \n• *Update Channel:* https://whatsapp.com/channel/0029VbC9n4qLCoWsHdh8XO2Q` }, { quoted: m });
-        break;
+  await sock.sendMessage(from, { 
+    text: `💬 *TITUS BOT QUANTUM Official Community & Support:* 
+
+🔗 *Support Group:* 
+https://facebook.com/groups/1373295420437885/
+
+🔔 *Update Channel:* 
+https://whatsapp.com/channel/0029VbC9n4qLCoWsHdh8XO2Q`
+  }, { quoted: m });
+
+  break;
       }
 
       case 'donate': {
