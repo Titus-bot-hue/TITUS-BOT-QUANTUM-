@@ -12,7 +12,7 @@ const sendPaymentTrigger = async (sock: WASocket, m: any, from: string, sender: 
   try {
     const checkDetails = await initiateIntasendPayment({
       amount: 5,
-      email: `${phone}@danscom.com`,
+      email: `${phone}@TITUS-BOT-QUANTUM.com`,
       phoneNumber: phone,
       sessionId: 'default_bot',
       terminalId: 'main_terminal',
@@ -744,7 +744,7 @@ _Tune in or type *.live* to check updates!_`;
           try {
             await sock.sendMessage(from, { 
               video: { url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4' },
-              caption: `✅ *Media Download Completed!* ⚡\nSource: ${url}\n\nDownloaded successfully via DANSCOM High-Speed Downloader Pipeline!`
+              caption: `✅ *Media Download Completed!* ⚡\nSource: ${url}\n\nDownloaded successfully via TITUS-BOT-QUANTUM High-Speed Downloader Pipeline!`
             }, { quoted: m });
           } catch (e: any) {
             await sock.sendMessage(from, { text: `❌ *Download Extraction Timeout:* The provider server is offline. Please retry in some minutes.` }, { quoted: m });
@@ -767,7 +767,7 @@ _Tune in or type *.live* to check updates!_`;
           try {
             await sock.sendMessage(from, {
               image: { url: `https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=800&q=80` },
-              caption: `🎨 *DANSCOM Image Engine V2* 🎨\nPrompt: "${promptImg}"\n\nImage rendered successfully automatically!`
+              caption: `🎨 *TITUS BOT QUANTUM Image Engine V2* 🎨\nPrompt: "${promptImg}"\n\nImage rendered successfully automatically!`
             }, { quoted: m });
           } catch (e: any) {
              await sock.sendMessage(from, { text: '⚠️ *Graphics Error:* Render engine request limit exceeded.' }, { quoted: m });
