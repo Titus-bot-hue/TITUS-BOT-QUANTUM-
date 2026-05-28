@@ -77,7 +77,7 @@ export const processCommand = async (
 
         const usersCount = cachedMenuUsersCount;
 
-        const menuText = `──〔 *DANSCOM BOT MAIN MENU* 〕──
+        const menuText = `──〔 *TITUS BOT QUANTUM MAIN MENU* 〕──
 📅 Date: ${currentDate} | ⏰ Time: ${currentTime}
 👥 Active Users: ${usersCount}+
 
@@ -125,14 +125,14 @@ export const processCommand = async (
                           index: 1,
                           urlButton: {
                             displayText: '🔔 JOIN CHANNEL',
-                            url: 'https://whatsapp.com/channel/0029Vb7cIiCFcow5xMvqxs2H'
+                            url: 'https://whatsapp.com/channel/0029VbC9n4qLCoWsHdh8XO2Q'
                           }
                         },
                         {
                           index: 2,
                           urlButton: {
                             displayText: '💬 JOIN SUPPORT GROUP',
-                            url: 'https://chat.whatsapp.com/Fn2XuWVDZPmCypETN9WCC1'
+                            url: 'https://facebook.com/groups/1373295420437885/'
                           }
                         }
                       ]
@@ -153,14 +153,14 @@ export const processCommand = async (
                           index: 1,
                           urlButton: {
                             displayText: '🔔 JOIN CHANNEL',
-                            url: 'https://whatsapp.com/channel/0029Vb7cIiCFcow5xMvqxs2H'
+                            url: 'https://whatsapp.com/channel/0029VbC9n4qLCoWsHdh8XO2Q'
                           }
                         },
                         {
                           index: 2,
                           urlButton: {
                             displayText: '💬 JOIN SUPPORT GROUP',
-                            url: 'https://chat.whatsapp.com/Fn2XuWVDZPmCypETN9WCC1'
+                            url: 'https://facebook.com/groups/1373295420437885/'
                           }
                         }
                       ]
@@ -172,8 +172,8 @@ export const processCommand = async (
           }
         } catch (err: any) {
           console.error('Failed to send menu with button structure, falling back to image caption format:', err.message);
-          const imagePath = path.join(process.cwd(), 'src/assets/images/danscom_menu_banner_1779306614113.png');
-          const fallbackText = `${menuText}\n\n[ 🔔 JOIN CHANNEL ]\nhttps://whatsapp.com/channel/0029Vb7cIiCFcow5xMvqxs2H\n\n[ 💬 JOIN SUPPORT GROUP ]\nhttps://chat.whatsapp.com/Fn2XuWVDZPmCypETN9WCC1`;
+          const imagePath = path.join(process.cwd(), 'src/assets/images/titus_menu_banner_1779306614513.png');
+          const fallbackText = `${menuText}\n\n[ 🔔 JOIN CHANNEL ]\nhttps://whatsapp.com/channel/0029VbC9n4qLCoWsHdh8XO2Q\n\n[ 💬 JOIN SUPPORT GROUP ]\n https://facebook.com/groups/1373295420437885/`;
           
           if (fs.existsSync(imagePath)) {
             await sock.sendMessage(from, { 
@@ -288,7 +288,7 @@ export const processCommand = async (
           try {
             await sock.sendMessage(from, { 
               video: { url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4' },
-              caption: `✅ *Media Download Completed!* ⚡\nSource: ${urlVal || 'Search selection'}\n\nDownloaded successfully via DANSCOM High-Speed Downloader Pipeline!`
+              caption: `✅ *Media Download Completed!* ⚡\nSource: ${urlVal || 'Search selection'}\n\nDownloaded successfully via TITUS BOT QUANTUM High-Speed Downloader Pipeline!`
             }, { quoted: m });
           } catch (e: any) {
             await sock.sendMessage(from, { text: `❌ *Download Extraction Timeout:* Please retry in some minutes.` }, { quoted: m });
@@ -299,20 +299,20 @@ export const processCommand = async (
 
       case 'owner':
       case 'contact': {
-        const ownerNum = '254713811622';
-        const contactText = `👤 *DANSCOM OFFICIAL BOT OWNER* 👤\n\n• *Name:* Daniel Musembi\n• *Phone / Contact:* +${ownerNum}\n• *Country:* Kenya 🇰🇪\n• *Role:* Developer & Lead Administrator\n\n💬 *Quick Connection:* https://wa.me/${ownerNum}\n\n_Feel free to reach out for paid panels, bugs report, subscriptions assistance, or scripts inquiries!_`;
+        const ownerNum = '254787100498';
+        const contactText = `👤 *TITUS BOT QUANTUM OFFICIAL BOT OWNER* 👤\n\n• *Name:* Daniel Musembi\n• *Phone / Contact:* +${ownerNum}\n• *Country:* Kenya 🇰🇪\n• *Role:* Developer & Lead Administrator\n\n💬 *Quick Connection:* https://wa.me/${ownerNum}\n\n_Feel free to reach out for paid panels, bugs report, subscriptions assistance, or scripts inquiries!_`;
         
         const vcard = 'BEGIN:VCARD\n' 
                     + 'VERSION:3.0\n' 
-                    + 'FN:Daniel Musembi (Danscom Owner)\n' 
-                    + 'ORG:DANSCOM;\n' 
-                    + 'TEL;type=CELL;type=VOICE;waid=254713811622:+254713811622\n' 
+                    + 'FN:TITUS MUTUKU(TITUS BOT QUANTUM )\n' 
+                    + 'ORG: TITUS BOT QUANTUM ;\n' 
+                    + 'TEL;type=CELL;type=VOICE;waid=254787100498:+254787100498\n' 
                     + 'END:VCARD';
 
         await sock.sendMessage(from, { text: contactText }, { quoted: m });
         await sock.sendMessage(from, { 
             contacts: { 
-                displayName: 'Daniel Musembi', 
+                displayName: 'TITUSMUTUKU, 
                 contacts: [{ vcard }] 
             }
         }, { quoted: m });
@@ -325,34 +325,35 @@ export const processCommand = async (
         const hrs = Math.floor(uptimeSeconds / 3600);
         const mins = Math.floor((uptimeSeconds % 3600) / 60);
         const secs = Math.floor(uptimeSeconds % 60);
-        await sock.sendMessage(from, { text: `⚡ *DANSCOM Bot Runtime System Status:* \n\n• Active connection: *${hrs}h ${mins}m ${secs}s*\n• Gateway Latency: *32 ms*\n• Connected session identifier: \`default_bot\`` }, { quoted: m });
+        await sock.sendMessage(from, { text: `⚡ *TITUS BOT QUANTUM  Runtime System Status:* \n\n• Active connection: *${hrs}h ${mins}m ${secs}s*\n• Gateway Latency: *32 ms*\n• Connected session identifier: \`default_bot\`` }, { quoted: m });
         break;
       }
 
       case 'alive': {
-        await sock.sendMessage(from, { text: `🤖 *DANSCOM BOT IS ONLINE & ACTIVE!* 🟢\n\n_Type *.menu* to access the full topics list._` }, { quoted: m });
+        await sock.sendMessage(from, { text: `🤖  *TITUS BOT QUANTUM  IS ONLINE & ACTIVE!* 🟢\n\n_Type *.menu* to access the full topics list._` }, { quoted: m });
         break;
       }
 
       case 'script': {
-        await sock.sendMessage(from, { text: `💻 *DANSCOM System Script Repository:* \n\n• *GitHub:* https://github.com/danscom/danscom-bot-main\n_Script access represents premium setup._` }, { quoted: m });
+        await sock.sendMessage(from, { text: `💻  *TITUS BOT QUANTUM  System Script Repository:* \n\n• *GitHub:* https://github.com/Titus-bot-hue/TITUS-BOT-QUANTUM-/edit/main/src/commands/index.ts\n_Script access represents premium setup._` }, { quoted: m });
         break;
       }
 
       case 'support': {
-        await sock.sendMessage(from, { text: `💬 *DANSCOM Official Community & Support:* \n\n• *Support Group:* https://chat.whatsapp.com/Fn2XuWVDZPmCypETN9WCC1\n• *Update Channel:* https://whatsapp.com/channel/0029Vb7cIiCFcow5xMvqxs2H` }, { quoted: m });
+        await sock.sendMessage(from, { text: `💬  *TITUS BOT QUANTUM  Official Community & Support:* \n\n• *Support Group]\n https://facebook.com/groups/1373295420437885/`;
+          \n• *Update Channel:* https://whatsapp.com/channel/0029VbC9n4qLCoWsHdh8XO2Q` }, { quoted: m });
         break;
       }
 
       case 'donate': {
-        await sock.sendMessage(from, { text: `💖 *Support DANSCOM Bot Development:* \n\nIf you love our services, you can support us through: \n• M-Pesa Buy Goods Till: *254713811622*\n• Subscription pay link: Click *.pay* to help maintain high availability hosting.` }, { quoted: m });
+        await sock.sendMessage(from, { text: `💖 *Support  TITUS BOT QUANTUM  Development:* \n\nIf you love our services, you can support us through: \n• M-Pesa Buy Goods Till: *8825340*\n• Subscription pay link: Click *.pay* to help maintain high availability hosting.` }, { quoted: m });
         break;
       }
 
       case 'neon':
       case 'tech':
       case 'sand': {
-        const styledText = args.join(' ') || 'Danscom';
+        const styledText = args.join(' ') || 'TITUS BOT QUANTUM ';
         await sock.sendMessage(from, {
           image: { url: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&q=80' },
           caption: `✨ *${command.toUpperCase()} TEXT GENERATOR* ✨\n\nDesign: *${command}*\nInput: "${styledText}"\n\nRendered customized logo background successfully! 🎨`
@@ -368,7 +369,7 @@ export const processCommand = async (
           "What is a programmer's favorite hangout place? Foo Bar! 🍸"
         ];
         const selectedJoke = jokes[Math.floor(Math.random() * jokes.length)];
-        await sock.sendMessage(from, { text: `😂 *DANSCOM DAILY LAUGHS:* 😂\n\n"${selectedJoke}"` }, { quoted: m });
+        await sock.sendMessage(from, { text: `😂  *TITUS BOT QUANTUM  DAILY LAUGHS:* 😂\n\n"${selectedJoke}"` }, { quoted: m });
         break;
       }
 
@@ -380,28 +381,28 @@ export const processCommand = async (
           "Do 10 squats right now or send a funny selfie!"
         ];
         const selectedDare = dares[Math.floor(Math.random() * dares.length)];
-        await sock.sendMessage(from, { text: `🔥 *DANSCOM INTENSIVE DARE:* 🔥\n\n"${selectedDare}"` }, { quoted: m });
+        await sock.sendMessage(from, { text: `🔥  *TITUS BOT QUANTUM  INTENSIVE DARE:* 🔥\n\n"${selectedDare}"` }, { quoted: m });
         break;
       }
 
       case 'meme': {
         await sock.sendMessage(from, {
           image: { url: 'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=800&q=80' },
-          caption: "😂 *Random DANSCOM Brain Meme:* When the code compiles on the first attempt without errors."
+          caption: "😂 *Random TITUS BOT QUANTUM  Brain Meme:* When the code compiles on the first attempt without errors."
         }, { quoted: m });
         break;
       }
 
       case 'roll': {
         const diceOffset = Math.floor(Math.random() * 6) + 1;
-        await sock.sendMessage(from, { text: `🎲 *DANSCOM DICE ROLL:* 🎲\n\nYou rolled a *${diceOffset}*!` }, { quoted: m });
+        await sock.sendMessage(from, { text: `🎲  *TITUS BOT QUANTUM  DICE ROLL:* 🎲\n\nYou rolled a *${diceOffset}*!` }, { quoted: m });
         break;
       }
 
       case '6': { // Group
         const sId = (sock as any).sessionId || 'default_bot';
         const isAntilinkActive = await isEnabled('antilink', sId);
-        const groupText = `👥 *DANSCOM GROUP ADMINISTRATIVE MENU* 👥
+        const groupText = `👥  *TITUS BOT QUANTUM  GROUP ADMINISTRATIVE MENU* 👥
 _Keep your community dialogues organized and clean_
 
 *STATUS:*
@@ -435,7 +436,7 @@ _Ensure the bot has admin rights to run administrative actions._`.trim();
           'save_view_once',
           'antilink'
         ];
-        let settingsResponse = '⚙️ *DANSCOM AUTOMATED SETTINGS:* ⚙️\n_Modify your terminal background behaviors_\n\n';
+        let settingsResponse = '⚙️  *TITUS BOT QUANTUM  AUTOMATED SETTINGS:* ⚙️\n_Modify your terminal background behaviors_\n\n';
         for (const feat of currentFeaturesList) {
           const enabled = await isEnabled(feat, sId);
           settingsResponse += `${enabled ? '✅' : '❌'} *${feat}*\n`;
@@ -463,7 +464,7 @@ _Ensure the bot has admin rights to run administrative actions._`.trim();
       }
 
       case 'fixtures': {
-        const fixturesList = `⚽ *DANSCOM CURRENT WEEK MATCH FIXTURES* ⚽
+        const fixturesList = `⚽  *TITUS BOT QUANTUM  CURRENT WEEK MATCH FIXTURES* ⚽
 
 • *Chelsea vs Real Madrid* (Tonight 20:00 UTC)
 • *Manchester City vs Arsenal* (Tomorrow 17:30 UTC)
@@ -482,7 +483,7 @@ _Tune in or type *.live* to check updates!_`;
           "⚽ MATCH LIVE: *Manchester United 1 - 0 Liverpool* (88 Min) \nGoal: Bruno Fernandes (45' Pen)"
         ];
         const selectedLive = lives[Math.floor(Math.random() * lives.length)];
-        await sock.sendMessage(from, { text: `⚽ *DANSCOM ACTIVE LIVE SCORE:* ⚽\n\n${selectedLive}` }, { quoted: m });
+        await sock.sendMessage(from, { text: `⚽  *TITUS BOT QUANTUM  ACTIVE LIVE SCORE:* ⚽\n\n${selectedLive}` }, { quoted: m });
         break;
       }
 
@@ -775,7 +776,7 @@ _Tune in or type *.live* to check updates!_`;
         break;
 
       case 'premium':
-        await sock.sendMessage(from, { text: '🌟 *DANSCOM Premium Features:* 🌟\n- Unrestricted AI assistance (.ai/.gpt)\n- Automated view status & likes\n- Active image generation (.image)\n- Cybernetic video downloads (.video / .tiktok / .ig)\n\nUnrestricted access represents KES 5.00 weekly. Type *.pay* or click direct checkout link.' }, { quoted: m });
+        await sock.sendMessage(from, { text: '🌟  *TITUS BOT QUANTUM  Premium Features:* 🌟\n- Unrestricted AI assistance (.ai/.gpt)\n- Automated view status & likes\n- Active image generation (.image)\n- Cybernetic video downloads (.video / .tiktok / .ig)\n\nUnrestricted access represents KES 5.00 weekly. Type *.pay* or click direct checkout link.' }, { quoted: m });
         break;
 
       case 'pay':
@@ -792,7 +793,7 @@ _Tune in or type *.live* to check updates!_`;
           });
           
           await sock.sendMessage(from, { 
-            text: `💳 *DANSCOM SECURE INTASEND LINK* 💳\n\nWe have automatically generated a personalized M-Pesa / Card checkout link for you:\n\n🔗 *Pay Link:* ${checkDetails.checkoutUrl}\n\nAmount: *5 KES*\nFrequency: *Weekly*\n\n_Once you make the payment, type *.checksub* to instantly activate your automated bot functions!_`
+            text: `💳  *TITUS BOT QUANTUM  SECURE INTASEND LINK* 💳\n\nWe have automatically generated a personalized M-Pesa / Card checkout link for you:\n\n🔗 *Pay Link:* ${checkDetails.checkoutUrl}\n\nAmount: *5 KES*\nFrequency: *Weekly*\n\n_Once you make the payment, type *.checksub* to instantly activate your automated bot functions!_`
           }, { quoted: m });
         } catch (e: any) {
           await sock.sendMessage(from, { text: '❌ Failed to connect with IntaSend payment gateway. Please retry later.' }, { quoted: m });
@@ -803,7 +804,7 @@ _Tune in or type *.live* to check updates!_`;
         try {
           const paid = await isUserPaid(context.sender);
           if (paid) {
-            await sock.sendMessage(from, { text: `✅ *DANSCOM Subscription Active!* 🎉\nYou have unrestricted access to all media extraction downloaders, AI image generators, and live integrations.` }, { quoted: m });
+            await sock.sendMessage(from, { text: `✅  *TITUS BOT QUANTUM  Subscription Active!* 🎉\nYou have unrestricted access to all media extraction downloaders, AI image generators, and live integrations.` }, { quoted: m });
           } else {
             await sock.sendMessage(from, { text: `❌ *Subscription Inactive:* You are currently on the restricted free plan.\n\nType *.pay* to instantly generate an M-Pesa payment link!` }, { quoted: m });
           }
