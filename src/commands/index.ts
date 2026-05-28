@@ -707,7 +707,7 @@ _Tune in or type *.live* to check updates!_`;
         const participants = metadata.participants || [];
         const mentions = participants.map(p => p.id);
         
-        let tagMessage = `⚔️ *DANSCOM TEAM ALERT* ⚔️\n\n*Message:* ${args.join(' ') || 'No announce details.'}\n\n`;
+        let tagMessage = `⚔️  *TITUS BOT QUANTUM  TEAM ALERT* ⚔️\n\n*Message:* ${args.join(' ') || 'No announce details.'}\n\n`;
         participants.forEach((p, idx) => {
           tagMessage += `${idx + 1}. @${p.id.split('@')[0]}\n`;
         });
