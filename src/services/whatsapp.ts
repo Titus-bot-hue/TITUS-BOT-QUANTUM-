@@ -116,7 +116,7 @@ export const getConnectionState = () => {
             pairingNumber: def.pairingNumber,
             user: def.sock?.user ? {
                 id: def.sock.user.id,
-                name: def.sock.user.name || 'TITUS BOT QUANTUM Bot'
+                name: def.sock.user.name || 'TITUS BOT QUANTUM 
             } : null
         };
     }
@@ -172,7 +172,7 @@ export const requestPairingCode = async (number: string, sessionId: string = 'de
     }
     
     let retry = 0;
-    while ((!sess || !sess.sock) && retry < 30) {
+    while ((!sess || !sess.sock) && retry < 30) {h
         await new Promise(resolve => setTimeout(resolve, 500));
         sess = sessions.get(sessionId);
         retry++;
