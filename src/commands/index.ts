@@ -729,11 +729,6 @@ _Tune in or type *.live* to check updates!_`;
         break;
       }
 
-      case 'video':
-      case 'ytmp4':
-      case 'fb':
-      case 'ig':
-      case 'tiktok':
         const url = args[0];
         if (!url) return sock.sendMessage(from, { text: 'Please provide a URL!' }, { quoted: m });
         
