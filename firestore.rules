@@ -16,7 +16,7 @@ service cloud.firestore {
     }
 
     function isAdmin() {
-      return isEmailVerified() && request.auth.token.email == 'musembidaniel615@gmail.com';
+      return isEmailVerified() && request.auth.token.email == 'mutukutitus357@gmail.com@gmail.com';
     }
 
     function isValidId(id) {
