@@ -420,7 +420,7 @@ export const activateSubscription = async (sessionId: string, type: 'setup' | 'w
 
   // Keep in-memory config for high availability!
   const premiumCache = global as any;
-  if (!premiumCache.TITUS BOT QUANTUM Premium) {
+  if (!premiumCache["TITUS BOT QUANTUM Premium"]) {
     premiumCache.TITUS BOT QUANTUM Premium = new Map<string, any>();
   }
   premiumCache.TITUS BOT QUANTUM Premium.set(userKey, {
