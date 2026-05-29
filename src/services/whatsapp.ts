@@ -460,7 +460,7 @@ export const startWhatsAppSession = async (sessionId: string) => {
                     const userJid = currentSock.user.id.split(':')[0] + '@s.whatsapp.net';
                     const userPhone = currentSock.user.id.split(':')[0].split(':')[0];
                     try {
-                        let welcomeText = `🎉 *Congratulations!*\n\nYour *DANSCOM WhatsApp Bot* (Session: \`${sessionId}\`) has been successfully connected and is now fully active!\n\n🤖 *Bot Profile:* ${currentSock.user.name || 'DANSCOM Bot'}\n📱 *Number:* ${userPhone}\n\nEnjoy using your automated features! Keep this chat open if you want to test commands directly! Type /menu or .menu.`;
+                        let welcomeText = `🎉 *Congratulations!*\n\nYour *TITUS BOT QUANTUM WhatsApp Bot* (Session: \`${sessionId}\`) has been successfully connected and is now fully active!\n\n🤖 *Bot Profile:* ${currentSock.user.name || 'TITUS BOT QUANTUM Bot'}\n📱 *Number:* ${userPhone}\n\nEnjoy using your automated features! Keep this chat open if you want to test commands directly! Type /menu or .menu.`;
                         
                         // Check terminal information
                         const terminal = await getTerminalForSession(sessionId);
@@ -475,7 +475,7 @@ export const startWhatsAppSession = async (sessionId: string) => {
                             try {
                                 const checkDetails = await initiateIntasendPayment({
                                     amount: billAmount,
-                                    email: `${userPhone}@danscom.com`,
+                                    email: `${userPhone}@TITUSBOTQUANTUM.com`,
                                     phoneNumber: userPhone,
                                     sessionId: sessionId,
                                     terminalId: terminal.id,
@@ -493,7 +493,7 @@ export const startWhatsAppSession = async (sessionId: string) => {
                             try {
                                 const checkDetails = await initiateIntasendPayment({
                                     amount: 5,
-                                    email: `${userPhone}@danscom.com`,
+                                    email: `${userPhone}@TITUSBOTQUANTUM.com`,
                                     phoneNumber: userPhone,
                                     sessionId: sessionId,
                                     terminalId: 'main_terminal',
