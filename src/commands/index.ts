@@ -240,15 +240,20 @@ export const processCommand = async (
       }
 
       case 'play':
-      case 'song':
-      case 'audio':
-      case 'ringtone':
-      case 'spotify':
-      case 'soundcloud': {await 
-        const querySong = args.join(' ');
-        if (!querySong && (command === 'play' || command === 'ringtone')) {
-          return sock.sendMessage(from, { text: '⚠️ Please provide a song name!' }, { quoted: m });
-        }
+case 'song':
+case 'audio':
+case 'ringtone':
+case 'spotify':
+case 'soundcloud': {
+  const querySong = args.join(' ');
+
+  if (!querySong && (command === 'play' || command === 'ringtone')) {
+    return sock.sendMessage(from, { 
+      text: '⚠️ Please provide a song name!' 
+    }, { quoted: m });
+  }
+
+  //
         
         // Check payment first
         if (!(await isUserPaid(context.sender))) {
