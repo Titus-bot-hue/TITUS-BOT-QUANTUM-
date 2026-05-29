@@ -420,10 +420,10 @@ export const activateSubscription = async (sessionId: string, type: 'setup' | 'w
 
   // Keep in-memory config for high availability!
   const premiumCache = global as any;
-  if (!premiumCache.danscomPremium) {
-    premiumCache.danscomPremium = new Map<string, any>();
+  if (!premiumCache.TITUS BOT QUANTUM Premium) {
+    premiumCache.TITUS BOT QUANTUM Premium = new Map<string, any>();
   }
-  premiumCache.danscomPremium.set(userKey, {
+  premiumCache.TITUS BOT QUANTUM Premium.set(userKey, {
     sessionId,
     expiry: expiryDate,
     type
@@ -446,8 +446,8 @@ export const isUserPaid = async (identifier: string): Promise<boolean> => {
 
   // Check memory cache first
   const premiumCache = global as any;
-  if (premiumCache.danscomPremium?.has(key)) {
-    const data = premiumCache.danscomPremium.get(key);
+  if (premiumCache.TITUS BOT QUANTUM Premium?.has(key)) {
+    const data = premiumCache.TITUS BOT QUANTUM Premium.get(key);
     if (data.expiry > new Date()) return true;
   }
 
@@ -459,10 +459,10 @@ export const isUserPaid = async (identifier: string): Promise<boolean> => {
         const expiry = data?.expiry?.toDate() || new Date(0);
         
         // Sync cache
-        if (!premiumCache.danscomPremium) {
-          premiumCache.danscomPremium = new Map();
+        if (!premiumCache.TITUS BOT QUANTUM Premium) {
+          premiumCache.TITUS BOT QUANTUM Premium = new Map();
         }
-        premiumCache.danscomPremium.set(key, {
+        premiumCache.TITUS BOT QUANTUM Premium.set(key, {
           sessionId: data?.sessionId || key,
           expiry,
           type: data?.type || 'weekly'
