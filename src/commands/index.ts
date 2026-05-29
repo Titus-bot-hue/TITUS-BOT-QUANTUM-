@@ -412,7 +412,6 @@ https://whatsapp.com/channel/0029VbC9n4qLCoWsHdh8XO2Q`
         break;
       }
 
-      case '6': { // Group
         const sId = (sock as any).sessionId || 'default_bot';
         const isAntilinkActive = await isEnabled('antilink', sId);
         const groupText = `👥  *TITUS BOT QUANTUM  GROUP ADMINISTRATIVE MENU* 👥
@@ -434,7 +433,6 @@ _Ensure the bot has admin rights to run administrative actions._`.trim();
         break;
       }
 
-      case '7': { // Settings (Keep this too just in case they enter string '7' directly)
         const sId = (sock as any).sessionId || 'default_bot';
         const currentFeaturesList = [
           'auto_read',
