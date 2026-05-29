@@ -210,7 +210,7 @@ export const processCommand = async (
       case '21':
       case '22': {
         const submenusText: Record<string, string> = {
-          '1': `──〔 🌐 MAIN MENU 〕──\n\n• .menu / .help / .allmenu - Display general menu list\n• .ping - Check application latency and system ping speed\n• .runtime / .uptime - Check active connection time elapsed\n• .alive - View connectivity heartbeats\n• .owner - Get developer and administrator keys (Daniel Musembi)\n• .script - Get official setup code repository\n• .support - Join the technical discussion help group\n• .donate - Support system maintenance`,
+          '1': `──〔 🌐 MAIN MENU 〕──\n\n• .menu / .help / .allmenu - Display general menu list\n• .ping - Check application latency and system ping speed\n• .runtime / .uptime - Check active connection time elapsed\n• .alive - View connectivity heartbeats\n• .owner - Get developer and administrator keys (TITUS MUTUKU)\n• .script - Get official setup code repository\n• .support - Join the technical discussion help group\n• .donate - Support system maintenance`,
           '2': `──〔 🤖 AI MENU 〕──\n\n_Google Gemini artificial intelligence assistance_\n\n• .ai [prompt] - Standard conversational intelligence reply\n• .gpt [prompt] - High capabilities coder assistant logic\n• .bard / .gemini / .claude / .copilot / .blackbox - Alternate model brains\n• .imagine / .imageai / .photoai / .animeai / .logoai - Text-to-image graphic models\n• .videoai / .musicai / .voiceai / .lyricsai - Media creations\n• .codeai / .essayai / .translateai - Academic helpers`,
           '3': `──〔 🎨 IMAGE & EPHOTO MENU 〕──\n\n_Generate customized logo images and stylish visual effects_\n\n• .logo / .glitch / .neon / .fire / .matrix / .graffiti\n• .3dtext / .blackpink / .shadow / .light / .devil / .angel\n• .naruto / .pubg / .birthday / .galaxy / .cartoon / .pixel\n• .sketch / .wanted\n\n_Example format:_ \`.neon Arnold\``,
           '4': `──〔 📥 DOWNLOAD MENU 〕──\n\n_Download high-definition social broadcasts and play instantly_\n\n• .play [song name] - Play high-quality MP3 audio streams\n• .song [url] - Download and play audio track\n• .video [url] - Direct mp4 video file extractor and play\n• .ytmp3 [url] / .ytmp4 [url] - Extract and play YouTube media\n• .spotify [url] / .tiktok [url] - Fast stream extracts\n• .facebook [url] / .instagram [url] / .twitter [url] - Social files downloads\n• .mediafire [url] / .apk / .gdrive / .pinterest - Standard file grabbers\n• .soundcloud / .audiomack / .ringtone / .anime / .movie / .series - Direct play selection`,
@@ -224,7 +224,7 @@ export const processCommand = async (
           '12': `──〔 🎵 MUSIC MENU 〕──\n\n_Configure lyrics and play filters_\n\n• .lyrics [song name] - Get song text sheets\n• .findsong - Identify sound\n• .bass / .slow / .nightcore / .reverb - Audio tuning filters\n• .volume / .audio / .musicsearch / .playlist - Playlists management`,
           '13': `──〔 🎬 VIDEO MENU 〕──\n\n_Transposition and formatting tools for video_\n\n• .tovideo / .toaudio / .gif - Formatter\n• .compress / .reverse / .editvideo / .trim / .merge / .mp4 / .quality - Video post-processing`,
           '14': `──〔 🛠️ TOOLS MENU 〕──\n\n_System terminal diagnostics and cryptography tools_\n\n• .take / .fancy / .style - Text styling fonts\n• .readmore - Expandable spoilers\n• .obfuscate / .encode / .decode / .base64 / .binary / .hex - Cryptologies\n• .inspect / .json / .fetch / .upload / .server - Host network scripts`,
-          '15': `──〔 👑 OWNER MENU 〕──\n\n_Super-user credentials controls (Daniel Musembi or configured Owner only)_\n\n• .ban / .unban [@user] - Manage bot access rules\n• .broadcast [text] - Mass-send text across active group sessions\n• .join / .leave [link] - Manage group participation\n• .clearchats - Purge connection memory cache\n• .setcmd / .delcmd / .premium / .unpremium - Authorization configurations\n• .mode [public/private] / .eval [code] / .exec [cmd] / .getfile / .save - System controls`,
+          '15': `──〔 👑 OWNER MENU 〕──\n\n_Super-user credentials controls (TITUS MUTUKU configured Owner only)_\n\n• .ban / .unban [@user] - Manage bot access rules\n• .broadcast [text] - Mass-send text across active group sessions\n• .join / .leave [link] - Manage group participation\n• .clearchats - Purge connection memory cache\n• .setcmd / .delcmd / .premium / .unpremium - Authorization configurations\n• .mode [public/private] / .eval [code] / .exec [cmd] / .getfile / .save - System controls`,
           '16': `──〔 🎮 GAME MENU 〕──\n\n_Immersive multiplayer board and guessing games_\n\n• .tictactoe / .quiz / .math / .guess / .hangman\n• .riddle / .casino / .slot / .dice / .truthgame\n• .dungeon / .chess / .snake / .race / .mines`,
           '17': `──〔 ☁️ CLOUD & HOSTING MENU 〕──\n\n_Web hosting statuses and developer terminal metrics_\n\n• .deploy / .render / .vercel / .railway / .netlify - Server management\n• .host / .domain / .dns - Network name settings\n• .status / .logs - Platform logs`,
           '18': `──〔 📚 EDUCATION MENU 〕──\n\n_AI study helper tools and academic homework guidelines_\n\n• .homework / .notes / .essay / .summary - Drafting helpers\n• .science / .mathsolve / .chemistry / .biology / .physics / .history - Study solvers`,
@@ -244,7 +244,7 @@ export const processCommand = async (
       case 'audio':
       case 'ringtone':
       case 'spotify':
-      case 'soundcloud': {
+      case 'soundcloud': {await 
         const querySong = args.join(' ');
         if (!querySong && (command === 'play' || command === 'ringtone')) {
           return sock.sendMessage(from, { text: '⚠️ Please provide a song name!' }, { quoted: m });
@@ -300,7 +300,7 @@ export const processCommand = async (
       case 'owner':
       case 'contact': {
         const ownerNum = '254787100498';
-        const contactText = `👤 *TITUS BOT QUANTUM OFFICIAL BOT OWNER* 👤\n\n• *Name:* Daniel Musembi\n• *Phone / Contact:* +${ownerNum}\n• *Country:* Kenya 🇰🇪\n• *Role:* Developer & Lead Administrator\n\n💬 *Quick Connection:* https://wa.me/${ownerNum}\n\n_Feel free to reach out for paid panels, bugs report, subscriptions assistance, or scripts inquiries!_`;
+        const contactText = `👤 *TITUS BOT QUANTUM OFFICIAL BOT OWNER* 👤\n\n• *Name:* TITUS MUTUKU \n• *Phone / Contact:* +${ownerNum}\n• *Country:* Kenya 🇰🇪\n• *Role:* Developer & Lead Administrator\n\n💬 *Quick Connection:* https://wa.me/${ownerNum}\n\n_Feel free to reach out for paid panels, bugs report, subscriptions assistance, or scripts inquiries!_`;
         
         const vcard = 'BEGIN:VCARD\n' 
                     + 'VERSION:3.0\n' 
