@@ -116,7 +116,7 @@ export const getConnectionState = () => {
             pairingNumber: def.pairingNumber,
             user: def.sock?.user ? {
                 id: def.sock.user.id,
-                name: def.sock.user.name || 'TITUS BOT QUANTUM 
+                name: def.sock.user.name || 'TITUS BOT QUANTUM'
             } : null
         };
     }
