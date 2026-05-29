@@ -1,55 +1,57 @@
-⚡ TITUS-BOT Quantum Edition ⚡
+⚡🌌 TITUS MUTUKU — TITUS-BOT QUANTUM 🌌⚡
 
-<div align="center"><img src="https://raw.githubusercontent.com/Titus-bot-hue/TITUS-BOT-Quantum/main/TITUS-BOT-Quantum.jpg" width="320" style="border-radius:50%; box-shadow:0 0 40px #00ffee;"/>🌌 TITUS-BOT QUANTUM 🌌
-
-🚀 Next Generation WhatsApp Multi-Device Bot
-
-⚡ AI Powered • Secure • Fast • Cloud Ready
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2500&pause=1000&color=00FFEA&center=true&vCenter=true&width=700&lines=⚡+Fast+•+Secure+•+Reliable;🤖+AI+Powered+WhatsApp+Automation;💎+Quantum+Edition+Activated;🔥+Advanced+Multi+Device+System;☁️+Deploy+Anywhere+Easily" />
+<div align="center"><img src="https://raw.githubusercontent.com/Titus-bot-hue/TITUS-BOT-Quantum/main/TITUS-BOT-Quantum.jpg" width="340" style="border-radius:50%; box-shadow:0 0 50px #00ffee;"/><br><h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=34&duration=2500&pause=1000&color=00FFEA&center=true&vCenter=true&width=900&lines=⚡+TITUS+MUTUKU+⚡;🚀+TITUS-BOT+QUANTUM+🚀;💎+NEXT+GEN+WHATSAPP+BOT+💎;🤖+AI+POWERED+AUTOMATION+🤖" />
+</h1><h3 align="center">
+🔥 Advanced WhatsApp Multi-Device Bot 🔥
+</h3><p align="center">
+⚡ AI Powered • Secure • Fast • Cloud Ready ⚡
 </p>---
 
-<p align="center">
-  <a href="https://github.com/Titus-bot-hue/TITUS-BOT-Quantum/stargazers">
-    <img src="https://img.shields.io/github/stars/Titus-bot-hue/TITUS-BOT-Quantum?style=for-the-badge&color=00ffee"/>
-  </a>  <a href="https://github.com/Titus-bot-hue/TITUS-BOT-Quantum/network/members">
-    <img src="https://img.shields.io/github/forks/Titus-bot-hue/TITUS-BOT-Quantum?style=for-the-badge&color=00ff99"/>
-  </a>  <a href="https://github.com/Titus-bot-hue/TITUS-BOT-Quantum/issues">
-    <img src="https://img.shields.io/github/issues/Titus-bot-hue/TITUS-BOT-Quantum?style=for-the-badge&color=ff0055"/>
-  </a>
-</p></div>---
+<p align="center"><a href="https://github.com/Titus-bot-hue/TITUS-BOT-Quantum">
+<img src="https://img.shields.io/badge/🔥%20TITUS%20BOT%20QUANTUM-00ffee?style=for-the-badge&logo=github&logoColor=black"/>
+</a><br><br>
 
-🌟 About TITUS-BOT Quantum
+<a href="https://github.com/Titus-bot-hue/TITUS-BOT-Quantum/stargazers">
+<img src="https://img.shields.io/github/stars/Titus-bot-hue/TITUS-BOT-Quantum?style=for-the-badge&color=00ffee"/>
+</a><a href="https://github.com/Titus-bot-hue/TITUS-BOT-Quantum/network/members">
+<img src="https://img.shields.io/github/forks/Titus-bot-hue/TITUS-BOT-Quantum?style=for-the-badge&color=00ff99"/>
+</a><a href="https://github.com/Titus-bot-hue/TITUS-BOT-Quantum/issues">
+<img src="https://img.shields.io/github/issues/Titus-bot-hue/TITUS-BOT-Quantum?style=for-the-badge&color=ff0055"/>
+</a></p></div>---
 
-TITUS-BOT Quantum is a powerful next-generation WhatsApp automation system built for:
+🚀 QUICK DEPLOY
 
-- ⚡ High performance
-- 🤖 Artificial Intelligence
-- 🔒 Security & stability
-- ☁️ Cloud deployment
-- 🎮 Fun & automation
-- 📥 Media downloading
-- 👥 Group management
+<div align="center"><a href="https://render.com">
+<img src="https://img.shields.io/badge/DEPLOY%20ON%20RENDER-000000?style=for-the-badge&logo=render&logoColor=white&color=61DAFB" width="270"/>
+</a><br><br>
 
-Built using modern technologies:
+<a href="https://heroku.com">
+<img src="https://img.shields.io/badge/DEPLOY%20ON%20HEROKU-000000?style=for-the-badge&logo=heroku&logoColor=white&color=8A2BE2" width="270"/>
+</a><br><br>
 
-- Node.js
-- Baileys
-- Firebase
+<a href="https://replit.com">
+<img src="https://img.shields.io/badge/DEPLOY%20ON%20REPLIT-000000?style=for-the-badge&logo=replit&logoColor=white&color=FFA500" width="270"/>
+</a></div>---
+
+🌐 OFFICIAL COMMUNITY
+
+<div align="center"><a href="https://facebook.com/groups/1373295420437885">
+<img src="https://img.shields.io/badge/FACEBOOK%20SUPPORT%20GROUP-1877F2?style=for-the-badge&logo=facebook&logoColor=white" width="300"/>
+</a><br><br>
+
+<a href="https://chat.whatsapp.com/Gxi4kTcpfxqJW0yY9HZypr?mode=ems_copy_t">
+<img src="https://img.shields.io/badge/JOIN%20WHATSAPP%20UPDATES-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" width="300"/>
+</a></div>---
+
+⚡ MAIN FEATURES
+
+🤖 AI SYSTEM
+
 - Google Gemini AI
-- Render Cloud
-
----
-
-✨ Main Features
-
-🤖 AI Assistant
-
-- Smart AI conversations
-- Google Gemini integration
-- AI-generated replies
-- Coding & academic assistance
+- Smart conversations
+- Coding assistant
+- AI generated responses
 
 Commands
 
@@ -59,36 +61,34 @@ Commands
 
 ---
 
-📥 Media Downloader
+📥 MEDIA DOWNLOADER
 
-Download media from:
+Supports:
 
-- YouTube
-- TikTok
-- Facebook
-- Instagram
-- Spotify
-- SoundCloud
+✅ YouTube
+✅ TikTok
+✅ Facebook
+✅ Instagram
+✅ Spotify
+✅ SoundCloud
 
 Commands
 
 .play
-.video
 .song
+.video
 .ytmp3
 .ytmp4
 
 ---
 
-👥 Group Management
+👥 GROUP MANAGEMENT
 
-Advanced admin controls:
-
-- Kick members
-- Promote/Demote admins
-- Anti-link system
-- Auto moderation
-- Welcome messages
+- Kick & Promote
+- Anti-Link System
+- Tag All Members
+- Auto Moderation
+- Welcome System
 
 Commands
 
@@ -99,49 +99,36 @@ Commands
 
 ---
 
-🎮 Entertainment
-
-Fun commands and games:
+🎮 FUN & ENTERTAINMENT
 
 - Memes
 - Jokes
 - Stickers
+- Games
 - Truth or Dare
-- Dice Roll
 
 Commands
 
 .joke
 .meme
-.dare
 .roll
+.dare
 
 ---
 
-🔒 Security Features
+💎 PREMIUM FEATURES
 
-✅ Anti-ban protection
-✅ Rate limiting
-✅ Secure session storage
-✅ Firebase backups
-✅ Memory optimization
-✅ Safe API handling
+Premium Users Receive:
 
----
-
-💎 Premium Features
-
-Premium Users Get:
-
-✅ Faster AI responses
-✅ Advanced downloads
+✅ Faster AI
+✅ Unlimited downloads
 ✅ Exclusive commands
 ✅ Priority support
-✅ Enhanced automation
+✅ Advanced automation
 
-Subscription
+Weekly Subscription
 
-KES 5 Weekly
+KES 5 ONLY
 
 Commands
 
@@ -151,41 +138,17 @@ Commands
 
 ---
 
-🌐 Official Community
-
-<div align="center"><a href="https://facebook.com/groups/1373295420437885">
-  <img src="https://img.shields.io/badge/Facebook%20Support%20Group-1877F2?style=for-the-badge&logo=facebook&logoColor=white" width="280"/>
-</a><br><br>
-
-<a href="https://chat.whatsapp.com/Gxi4kTcpfxqJW0yY9HZypr?mode=ems_copy_t">
-  <img src="https://img.shields.io/badge/Join%20WhatsApp%20Updates-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" width="280"/>
-</a></div>---
-
-🚀 Deploy TITUS-BOT Quantum
-
-<div align="center"><a href="https://render.com">
-  <img src="https://img.shields.io/badge/Deploy%20on%20Render-000000?style=for-the-badge&logo=render&logoColor=white&color=61DAFB" width="260"/>
-</a><br><br>
-
-<a href="https://replit.com">
-  <img src="https://img.shields.io/badge/Deploy%20on%20Replit-000000?style=for-the-badge&logo=replit&logoColor=white&color=FFA500" width="260"/>
-</a><br><br>
-
-<a href="https://heroku.com">
-  <img src="https://img.shields.io/badge/Deploy%20on%20Heroku-000000?style=for-the-badge&logo=heroku&logoColor=white&color=8A2BE2" width="260"/>
-</a></div>---
-
-🛠 Installation Guide
+🛠 INSTALLATION
 
 Clone Repository
 
 git clone https://github.com/Titus-bot-hue/TITUS-BOT-Quantum.git
 
-Enter Folder
+Enter Directory
 
 cd TITUS-BOT-Quantum
 
-Install Packages
+Install Dependencies
 
 npm install
 
@@ -195,9 +158,9 @@ npm start
 
 ---
 
-⚙️ Environment Variables
+⚙️ ENVIRONMENT VARIABLES
 
-Create a ".env" file and add:
+Create ".env"
 
 GEMINI_API_KEY=
 
@@ -215,16 +178,18 @@ FIREBASE_CLIENT_EMAIL=
 
 ---
 
-🔥 Firebase Setup
+☁️ RENDER DEPLOYMENT
 
-1. Create Firebase Project
-2. Enable Firestore Database
-3. Generate Service Account
-4. Add credentials to ".env"
+1. Fork Repository
+2. Connect GitHub To Render
+3. Add Environment Variables
+4. Deploy
+5. Scan QR Code
+6. Enjoy 🚀
 
 ---
 
-📂 Project Structure
+📂 PROJECT STRUCTURE
 
 src/
 ├── commands/
@@ -237,7 +202,7 @@ src/
 
 ---
 
-📊 Analytics System
+📊 ANALYTICS
 
 Track:
 
@@ -252,74 +217,44 @@ Command
 
 ---
 
-📸 Preview
+🔒 SECURITY FEATURES
 
-<div align="center"><img src="https://raw.githubusercontent.com/Titus-bot-hue/TITUS-BOT-Quantum/main/TITUS-BOT-Quantum.jpg" width="300"/></div>---
-
-🛠 Sample Commands
-
-Command| Description
-".menu"| Show main menu
-".ping"| Check speed
-".sticker"| Create sticker
-".play"| Download music
-".video"| Download video
-".group"| Group controls
-".ai"| AI assistant
-".premium"| Premium details
+✅ Anti-Ban Protection
+✅ Firebase Session Storage
+✅ Rate Limiting
+✅ API Protection
+✅ Memory Optimization
+✅ Secure Authentication
 
 ---
 
-☁ Render Deployment
+👑 DEVELOPER
 
-Steps
-
-1. Fork Repository
-2. Connect GitHub to Render
-3. Add Environment Variables
-4. Deploy Service
-5. Scan QR Code
-6. Enjoy 🚀
-
----
-
-👑 Developer
-
-<div align="center">👤 Titus Mutuku
+<div align="center">⚡ TITUS MUTUKU ⚡
 
 🇰🇪 Kenya
 
-🚀 Creator of TITUS-BOT Quantum
+🚀 Creator Of TITUS-BOT Quantum
 
 </div>---
 
-❤️ Credits
+❤️ SUPPORT PROJECT
 
-Powered by:
+If you enjoy TITUS-BOT Quantum:
 
-- Node.js
-- Baileys
-- Firebase
-- Google Gemini AI
-- Render Cloud
-
----
-
-⭐ Support The Project
-
-If you love TITUS-BOT Quantum:
-
-⭐ Star the repository
-🍴 Fork the project
-📢 Share with friends
-💎 Support development
+⭐ Star Repository
+🍴 Fork Project
+📢 Share With Friends
+💎 Support Development
 
 ---
 
-<div align="center">💎 TITUS-BOT Quantum Edition 💎
+<div align="center">💎⚡ TITUS MUTUKU ⚡💎
 
-Powering The Future Of WhatsApp Automation
-
-© 2026 TITUS-BOT Quantum — All Rights Reserved
+<h3>
+🌌 TITUS-BOT QUANTUM EDITION 🌌
+</h3><h4>
+🔥 POWERING THE FUTURE OF WHATSAPP AUTOMATION 🔥
+</h4>© 2026 TITUS-BOT Quantum — All Rights Reserved
 
 </div>
