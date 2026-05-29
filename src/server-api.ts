@@ -362,7 +362,7 @@ app.post('/api/payments/create-checkout', async (req, res) => {
     
     const details = await initiateIntasendPayment({
       amount: parseFloat(amount),
-      email: email || `${sessionId}@danscom.com`,
+      email: email || `${sessionId}@TITUS BOT QUANTUM.com`,
       phoneNumber,
       sessionId,
       terminalId,
