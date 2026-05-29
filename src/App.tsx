@@ -1760,7 +1760,7 @@ export default function App() {
                     <label className="text-[9px] font-black text-slate-400 uppercase tracking-widest block mb-1.5">Operator Manager name</label>
                     <input 
                       type="text" 
-                      placeholder="e.g. Daniel Musembi"
+                      placeholder="e.g. TITUS MUTUKU"
                       value={newTerminalOperator}
                       onChange={(e) => setNewTerminalOperator(e.target.value)}
                       className="w-full bg-white border border-slate-200 rounded-2xl py-2.5 px-4 text-xs font-semibold focus:outline-none"
