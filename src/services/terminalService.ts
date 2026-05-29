@@ -419,14 +419,17 @@ export const activateSubscription = async (sessionId: string, type: 'setup' | 'w
   }
 
   // Keep in-memory config for high availability!
-  const premiumCache = global as any;
-  if (!premiumCache["TITUS BOT QUANTUM Premium"]) {
-    premiumCache.TITUS_BOT_QUANTUM_PREMIUM = new Map<string, any>();
-  premiumCache.TITUS BOT QUANTUM Premium.set(userKey, {
-    sessionId,
-    expiry: expiryDate,
-    type
-  });
+const premiumCache = global as any;
+
+if (!premiumCache.TITUS_BOT_QUANTUM_PREMIUM) {
+  premiumCache.TITUS_BOT_QUANTUM_PREMIUM = new Map<string, any>();
+}
+
+premiumCache.TITUS_BOT_QUANTUM_PREMIUM.set(userKey, {
+  sessionId,
+  expiry: expiryDate,
+  type
+});
 };
 
 /**
