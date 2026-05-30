@@ -448,7 +448,7 @@ export const isUserPaid = async (identifier: string): Promise<boolean> => {
 
   // Check memory cache first
   const premiumCache = global as any;
-  if (premiumCache.TITUS BOT QUANTUM Premium?.has(key)) {
+  if (premiumCache["TITUS BOT QUANTUM Premium"]?.has(key)) {
     const data = premiumCache.TITUS BOT QUANTUM Premium.get(key);
     if (data.expiry > new Date()) return true;
   }
