@@ -533,7 +533,6 @@ _Tune in or type *.live* to check updates!_`;
         break;
       }
 
-      case 'settings': {
         const sId = (sock as any).sessionId || 'default_bot';
         const features = [
           'auto_read',
