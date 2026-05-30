@@ -532,8 +532,8 @@ _Tune in or type *.live* to check updates!_`;
         await sock.sendMessage(from, { text: `Feature *${feature}* has been ${value ? 'enabled' : 'disabled'} for this bot JID! ✅` }, { quoted: m });
         break;
       }
-
-        const sId = (sock as any).sessionId || 'default_bot';
+      case 'settings': {
+       const sId = (sock as any).sessionId || 'default_bot';
         const features = [
           'auto_read',
           'auto_status_view',
