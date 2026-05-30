@@ -461,14 +461,16 @@ export const isUserPaid = async (identifier: string): Promise<boolean> => {
         const expiry = data?.expiry?.toDate() || new Date(0);
         
         // Sync cache
-if (premiumCache["TITUS BOT QUANTUM Premium"]?.has(key)) {
-          premiumCache["TITUS BOT QUANTUM Premium"]= new Map();
-        }
-        premiumCache["TITUS BOT QUANTUM Premium"].set(key, data)
-          sessionId: data?.sessionId || key,
-          expiry,
-          type: data?.type || 'weekly'
-        });
+// Sync cache
+if (!premiumCache["TITUS BOT QUANTUM Premium"]) {
+  premiumCache["TITUS BOT QUANTUM Premium"] = new Map();
+}
+
+premiumCache["TITUS BOT QUANTUM Premium"].set(key, {
+  sessionId: data?.sessionId || key,
+  expiry,
+  type: data?.type || 'weekly'
+});
 
         if (expiry > new Date()) return true;
       }
