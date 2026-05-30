@@ -421,11 +421,11 @@ export const activateSubscription = async (sessionId: string, type: 'setup' | 'w
   // Keep in-memory config for high availability!
 const premiumCache = global as any;
 
-if (!premiumCache.TITUS_BOT_QUANTUM_PREMIUM) {
-  premiumCache.TITUS_BOT_QUANTUM_PREMIUM = new Map<string, any>();
+if (premiumCache["TITUS BOT QUANTUM Premium"]?.has(key)) {
+  premiumCache["TITUS BOT QUANTUM Premium"] = new Map<string, any>();
 }
 
-premiumCache.TITUS_BOT_QUANTUM_PREMIUM.set(userKey, {
+premiumCache["TITUS BOT QUANTUM Premium"].set(userKey, {
   sessionId,
   expiry: expiryDate,
   type
@@ -462,7 +462,7 @@ export const isUserPaid = async (identifier: string): Promise<boolean> => {
         
         // Sync cache
 if (premiumCache["TITUS BOT QUANTUM Premium"]?.has(key)) {
-          premiumCache.TITUS BOT QUANTUM Premium = new Map();
+          premiumCache["TITUS BOT QUANTUM Premium"]= new Map();
         }
         premiumCache["TITUS BOT QUANTUM Premium"].set(key, data)
           sessionId: data?.sessionId || key,
