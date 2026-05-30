@@ -411,7 +411,7 @@ https://whatsapp.com/channel/0029VbC9n4qLCoWsHdh8XO2Q`
         await sock.sendMessage(from, { text: `🎲  *TITUS BOT QUANTUM  DICE ROLL:* 🎲\n\nYou rolled a *${diceOffset}*!` }, { quoted: m });
         break;
       }
-
+case 'groupmenu': {
         const sId = (sock as any).sessionId || 'default_bot';
         const isAntilinkActive = await isEnabled('antilink', sId);
         const groupText = `👥  *TITUS BOT QUANTUM  GROUP ADMINISTRATIVE MENU* 👥
@@ -432,6 +432,7 @@ _Ensure the bot has admin rights to run administrative actions._`.trim();
         await sock.sendMessage(from, { text: groupText }, { quoted: m });
         break;
       }
+        case 'settings': {
 
         const sId = (sock as any).sessionId || 'default_bot';
         const currentFeaturesList = [
